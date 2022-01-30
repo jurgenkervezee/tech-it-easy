@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Tech It Easy Dashboard</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-
+<h1>TV en andere breekbare spullen</h1>
+<h2>TV's sale metrics</h2>
+<div id="amountSoldTVs"></div>
+<div id="amountBoughtTVs"></div>
+<div id="amountStillToSellTVs"></div>
+<h2>Tv Merken</h2>
+<div id="tvBrands"></div>
+<h2>TV's te koop</h2>
+<button type="button" id="sortOnPrice" onclick="tvGenerator(sortOnPrice(inventory))">Sorteer op prijs</button>
+<button type="button" id="filterOnAmibi" onclick="tvGenerator(filterOnAmbilight(inventory))">AmbiLight TV's</button>
+<button type="button" id="filterOnSold" onclick="tvGenerator(filterOnSoldTVs(inventory))">Uitverkochte TV's</button>
+<div id="tvBrandsDisplay"></div>
+<script src="main.js"></script>
+<script src="main2.js"></script>
 </body>
 </html>
