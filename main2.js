@@ -117,7 +117,7 @@ function sortOnPrice(tvArr){
     tvArr.sort((a,b) => {
         return b.price - a.price;
     });
-    console.log(tvArr)
+    //console.log(tvArr)
     return tvArr;
 }
 
@@ -125,7 +125,7 @@ function filterOnAmbilight(tvArr){
     const ambiLight = tvArr.filter((tv) => {
         return tv.options.ambiLight;
     });
-    console.log(ambiLight);
+    //console.log(ambiLight);
     return ambiLight;
 }
 
@@ -133,6 +133,6 @@ function filterOnSoldTVs(tvArr){
     const soldTV = tvArr.filter((tv) => {
         return tv.sold === tv.originalStock;
     });
-    console.log(soldTV);
+    //console.log(soldTV);
     return soldTV;
 }
