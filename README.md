@@ -29,7 +29,7 @@ In de `inventory` array (in `main.js`) vind je 8 tv-objecten. Elk tv-object beva
 
 ## Voor je begint
 
-1. Koppel jouw javaScript bestand met de HTML pagina. Doe dit ook voor het CSS bestand.
+1. Koppel jouw javaScript bestand met de HTML pagina. Doe dit ook voor het CSS bestand. 
 2. Voel je vrij om voor iedere opdracht een nieuw `.js` bestand te maken indien jouw bestand anders te groot wordt.
    Houdt er wel rekening mee dat je ieder afzonderlijk `.js` bestand moet koppelen via een `<script>`-tag in de HTML.
 3. Vergeet niet dat je bij iedere wijziging eerst moet opslaan en de browser moet refreshen. `Nodemon` is niet meer
